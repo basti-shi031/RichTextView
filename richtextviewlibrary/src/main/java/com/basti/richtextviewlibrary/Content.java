@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 每个TextView中显示的内容
  * Created by SHIBW-PC on 2016/1/8.
  */
 public class Content {
@@ -34,6 +35,7 @@ public class Content {
         this.mList = mList;
     }
 
+    //拼接SpannableStringBuilder
     public void initStringBuilder(){
 
         SpannableStringBuilder spannableStringBuilder = new SpannableStringBuilder();
